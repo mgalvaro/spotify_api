@@ -1,0 +1,25 @@
+# Cache y archivos temporales
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Archivos de datos
+*.csv
+
+# Variables de entorno y secretos
+.env
+.env.*
+!.env.example
+
+# Entorno virtual
+.venv/
+venv/
+
+#passwords
+passwords.py
+
+#/API_Spotify.ipynb
+#/Billboard100-webscrap.ipynb
+/Proyecto_API_Spotify.ipynb
+.cache
