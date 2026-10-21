@@ -8,6 +8,11 @@ The goal is to explore patterns, trends, and differences among the chart's most 
 
 The project implements a complete **ETL (Extract, Transform, Load)** pipeline, incorporating data visualization and hypothesis testing to draw evidence-based conclusions.
 
+The dataset used is retrieved through 
+- Webscrapping the Billboard website (one year of data, from 2024 to 2025): https://www.billboard.com/charts/hot-100/
+- Spotfy API: Spotpy
+Then, the data is crossed.
+
 ## Objectives
 
 - Automatically extract historical Billboard Hot 100 data through web scraping.
